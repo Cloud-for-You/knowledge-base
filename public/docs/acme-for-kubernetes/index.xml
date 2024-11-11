@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ACME for Kubernetes on PH Blog and Docs</title>
+    <link>http://localhost:1313/docs/acme-for-kubernetes/</link>
+    <description>Recent content in ACME for Kubernetes on PH Blog and Docs</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="http://localhost:1313/docs/acme-for-kubernetes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cert-manager</title>
+      <link>http://localhost:1313/docs/acme-for-kubernetes/cert-manager/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/acme-for-kubernetes/cert-manager/</guid>
+      <description>&lt;p&gt;Controller, který sleduje Kubernetes API a na základě změn provádí definované akce.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img alt=&#34;Cert-manager diagram&#34; src=&#34;../../../images/acme-for-kubernetes/cert-manager-diagram.svg&#34; title=&#34;Cert-manager diagram&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Jeho základní funkcí je sledovat objekty &lt;strong&gt;Certificate.cert-manager.io/v1&lt;/strong&gt;, které obsahují informace pro CSR a následně zajistit podepsání této žádosti u definované certifikační autority. Objekt &lt;strong&gt;Certificate.cert-manager.io/v1&lt;/strong&gt; je pouze strukturovaně zapsaná informace, ze které bude vytvořena plnohodnotná žádost ve tvaru CSR a uložena do objektu &lt;strong&gt;CertificateRequests.cert-manager.io/v1&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Jako druhou funkcionalitu má za úkol sledovat &lt;strong&gt;Ingress.networking.k8s.io/v1&lt;/strong&gt; a jeho annotace. Na základě dohledaných annotací v Ingress založí &lt;strong&gt;Certificate.cert-manager.io/v1&lt;/strong&gt; a provede patch do Ingress se jménem Secret, ve kterém bude obsažen certifikát a privátní klíč.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>SelfSign CA</title>
+      <link>http://localhost:1313/docs/acme-for-kubernetes/selfsign-ca/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/acme-for-kubernetes/selfsign-ca/</guid>
+      <description>&lt;h3 id=&#34;postup-pro-vydání-certifikátu&#34; class=link_owner&gt;&#xA;  Postup pro vydání certifikátu&#xA;  &lt;a href=&#34;#postup-pro-vyd%c3%a1n%c3%ad-certifik%c3%a1tu&#34; class=&#34;link icon&#34;&gt;&#xA;    &lt;svg&gt;&#xA;      &lt;use xlink:href=&#34;#anchor-link&#34;&gt;&lt;/use&gt;&#xA;    &lt;/svg&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img alt=&#34;Cert-manager with SmallStep&#34; src=&#34;../../../images/acme-for-kubernetes/cert-manager-with-selfsigned-ca.png&#34; title=&#34;Cert-manager with SmallStep&#34;&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;konfigurace-issuer--clusterissuer&#34; class=link_owner&gt;&#xA;  Konfigurace Issuer / ClusterIssuer&#xA;  &lt;a href=&#34;#konfigurace-issuer--clusterissuer&#34; class=&#34;link icon&#34;&gt;&#xA;    &lt;svg&gt;&#xA;      &lt;use xlink:href=&#34;#anchor-link&#34;&gt;&lt;/use&gt;&#xA;    &lt;/svg&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-yaml&#34; data-lang=&#34;yaml&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;[&lt;/span&gt;&lt;span class=&#34;l&#34;&gt;params]&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nn&#34;&gt;...&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;3&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;l&#34;&gt;mobileNavigation = &amp;#34;left&amp;#34;&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;c&#34;&gt;# Mobile nav menu will open to the left of the screen.&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;ln&#34;&gt;4&lt;/span&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;&lt;/span&gt;&lt;span class=&#34;nn&#34;&gt;...&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
+    <item>
+      <title>SmallStep integration</title>
+      <link>http://localhost:1313/docs/acme-for-kubernetes/smallstep-integration/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/acme-for-kubernetes/smallstep-integration/</guid>
+      <description>&lt;h3 id=&#34;postup-pro-vydání-certifikátu&#34; class=link_owner&gt;&#xA;  Postup pro vydání certifikátu&#xA;  &lt;a href=&#34;#postup-pro-vyd%c3%a1n%c3%ad-certifik%c3%a1tu&#34; class=&#34;link icon&#34;&gt;&#xA;    &lt;svg&gt;&#xA;      &lt;use xlink:href=&#34;#anchor-link&#34;&gt;&lt;/use&gt;&#xA;    &lt;/svg&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img alt=&#34;Cert-manager with SmallStep&#34; src=&#34;../../../images/acme-for-kubernetes/cert-manager-with-smallstep-ca.png&#34; title=&#34;Cert-manager with SmallStep&#34;&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;smallstep-ca&#34; class=link_owner&gt;&#xA;  SmallStep CA&#xA;  &lt;a href=&#34;#smallstep-ca&#34; class=&#34;link icon&#34;&gt;&#xA;    &lt;svg&gt;&#xA;      &lt;use xlink:href=&#34;#anchor-link&#34;&gt;&lt;/use&gt;&#xA;    &lt;/svg&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;Certifikační autorita, která podepisuje žádosti o certifikáty. Poskytuje definovaný protokol ACME. Definice tohoto protokolu je v RFC 8555. SmallStep je možné pomocí pluginu integrovat na nadřazenou certifikační autoritu. Jedná se o externí komponentu, která může a nemusí být konfigurována přímo v Kubernetes clusteru. Je možné uvažovat i s využitím veřejné autority Let&#39;s Encrypt.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AI on PH Blog and Docs</title>
+    <link>http://localhost:1313/docs/ai/</link>
+    <description>Recent content in AI on PH Blog and Docs</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <atom:link href="http://localhost:1313/docs/ai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dataset</title>
+      <link>http://localhost:1313/docs/ai/dataset/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/docs/ai/dataset/</guid>
+      <description>&lt;p&gt;Dataset je obsah dat, který musíme připravit pro trénování modelu&lt;/p&gt;&#xA;&lt;h3 id=&#34;příprava-základního-datasetu&#34; class=link_owner&gt;&#xA;  Příprava základního datasetu&#xA;  &lt;a href=&#34;#p%c5%99%c3%adprava-z%c3%a1kladn%c3%adho-datasetu&#34; class=&#34;link icon&#34;&gt;&#xA;    &lt;svg&gt;&#xA;      &lt;use xlink:href=&#34;#anchor-link&#34;&gt;&lt;/use&gt;&#xA;    &lt;/svg&gt;&#xA;  &lt;/a&gt;&#xA;&lt;/h3&gt;&#xA;&lt;p&gt;formát CSV&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
