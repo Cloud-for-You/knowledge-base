@@ -1,6 +1,8 @@
 en:
+  contentDir: content/en
   LanguageName: "English"
   weight: 2
 cs:
+  contentDir: content/cs
   LanguageName: "Czech"
   weight: 1
