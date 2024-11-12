@@ -6,6 +6,8 @@ enableRobotsTXT: true
 theme: "compose"
 enableGitInfo: true
 
+defaultContentLanguage: cs
+
 # disableKinds = ["taxonomy", "taxonomyTerm"]
 
 outputs:

@@ -4,10 +4,10 @@ main:
   weight: 1
   url: "blog/"
 
-- name: "Dokumentace"
+- name: "Documentations"
   weight: 2
   url: "docs/"
 
-- name: "Návody"
-  weight: 2
+- name: "Tutorials"
+  weight: 3
   url: "tutorials/"
