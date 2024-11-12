@@ -7,8 +7,8 @@ theme: "compose"
 
 enableGitInfo: true
 
-languageCode: en-us
-defaultContentLanguage: en
+defaultContentLanguage: cs
+defaultContentLanguageInSubdir: true
 
 #disableKinds:
 #  - "taxonomy"
