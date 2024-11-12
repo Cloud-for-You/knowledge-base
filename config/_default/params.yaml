@@ -54,6 +54,12 @@ source:
   iconDark: "images/GitHubMarkDark.svg"
   url: "https://github.com/hates52/blog/"
 
+social:
+  - name: "LinkedIn"
+    icon: "fa-brands fa-linkedin"
+    weight: 2
+    url: "https://www.linkedin.com/company/cfycz/"
+
 # optional
 # attribution. Feel free to delete this
 author:
