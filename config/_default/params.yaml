@@ -1,5 +1,7 @@
 # use the setting below to set multiple docs directories.
-# docSections = ["docs", "tutorials"]
+#docSections:
+#  - "docs"
+#  - "tutorials"
 
 uniqueHomePage: true # change to false to add sidebar to homepage
 
@@ -21,7 +23,8 @@ showLineNumbers: false
 # By default the template will look for icons under the icons directory. In some situations you might wanna change that. edit the line below
 # iconsPath: 'icons/'
 
-otherSearchableFields: # As they appear in frontmatter
+# As they appear in frontmatter
+otherSearchableFields:
   - "Tags"
   - "Categories"
   - "CustomField"
