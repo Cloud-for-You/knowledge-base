@@ -1,0 +1,13 @@
+#  menu items
+main:
+- name: "Blog"
+  weight: 1
+  url: "blog/"
+
+- name: "Dokumentace"
+  weight: 2
+  url: "docs/"
+
+- name: "Návody"
+  weight: 2
+  url: "tutorials/"
